@@ -1,0 +1,109 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Oswald", sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  --color-primary-bg: #EAEAEA;
+  --color-secondary-bg: #141414;
+  --color-accent-red: #9B1B30;
+  --color-burnished-gold: #D4AF37;
+  --color-burnished-light: #F1D592;
+  --color-burnished-dark: #8B6508;
+  --color-charcoal: #333333;
+  --color-ink: #0A0A0A;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+@layer base {
+  body {
+    @apply bg-primary-bg text-ink font-sans antialiased selection:bg-accent-red selection:text-white;
+    @apply transition-colors duration-700;
+  }
+  h1, h2, h3 {
+    @apply font-display uppercase leading-[0.85] tracking-tighter;
+  }
+  p {
+    @apply leading-relaxed font-light;
+  }
+  /* Smooth scrolling for anchor links */
+  html {
+    /* scroll-behavior: smooth; */
+  }
+}
+
+@layer utilities {
+  .text-micro {
+    @apply font-display text-[10px] uppercase tracking-[0.4em] font-bold;
+  }
+  .split-layout {
+    @apply grid grid-cols-1 lg:grid-cols-2 min-h-screen;
+  }
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .luxury-border {
+    @apply border border-ink/5;
+  }
+  .bg-burnished {
+    background: linear-gradient(135deg, #d4af37 0%, #b8860b 50%, #8b6508 100%);
+  }
+  .text-burnished {
+    background: linear-gradient(to bottom, #f1d592 0%, #d4af37 50%, #8b6508 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .border-burnished {
+    border-image: linear-gradient(to right, #d4af37, #8b6508) 1;
+  }
+  .glow-burnished {
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.6));
+  }
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40 px-6 md:px-12 lg:px-24;
+  }
+  .bg-atmospheric {
+    background: 
+      radial-gradient(circle at 0% 0%, rgba(155, 27, 48, 0.03) 0%, transparent 40%),
+      radial-gradient(circle at 100% 100%, rgba(212, 175, 55, 0.03) 0%, transparent 40%),
+      var(--color-primary-bg);
+  }
+  .bg-atmospheric-kids {
+    background: 
+      radial-gradient(circle at 0% 0%, rgba(155, 27, 48, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 50% 50%, rgba(155, 27, 48, 0.02) 0%, transparent 70%),
+      var(--color-primary-bg);
+  }
+  @keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+}
+
+/* Custom transitions */
+.page-transition {
+  @apply transition-all duration-700 ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-primary-bg;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-ink/20 hover:bg-accent-red transition-colors;
+}
