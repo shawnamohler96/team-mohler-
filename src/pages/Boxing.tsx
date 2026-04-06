@@ -70,7 +70,7 @@ export default function Boxing() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/lady boxing.jpeg" 
+            src="/lady_boxing.jpeg" 
             alt="Adult Boxing" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -153,7 +153,7 @@ export default function Boxing() {
         variant="dark"
       />
 
-      <CTASection image="/lady boxing.jpeg" />
+      <CTASection image="/lady_boxing.jpeg" />
     </div>
   );
 }

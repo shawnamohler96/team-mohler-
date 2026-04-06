@@ -64,7 +64,7 @@ export default function Contact() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none">
         <img 
-          src="/2 guys grappling close up 2.jpeg" 
+          src="/2_guys_grappling_close_up_2.jpeg" 
           alt="Background" 
           className="w-full h-full object-cover grayscale"
           referrerPolicy="no-referrer"
