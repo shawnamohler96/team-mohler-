@@ -71,7 +71,7 @@ export default function Wrestling() {
             initial={{ scale: 1.3, opacity: 0 }}
             animate={{ scale: 1.2, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/wrestling_class.jpeg`} 
+            src={`/wrestling-class.jpeg`} 
             alt="Adult Wrestling" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -154,7 +154,7 @@ export default function Wrestling() {
         variant="dark"
       />
 
-      <CTASection image={`/wrestling_class.jpeg`} />
+      <CTASection image={`/wrestling-class.jpeg`} />
     </div>
   );
 }

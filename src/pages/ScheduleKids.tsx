@@ -88,10 +88,10 @@ export default function ScheduleKids() {
         titleAccent="Schedule" 
         subtitle="Training Times" 
         schedule={kidsSchedule} 
-        image={`/kids_bjj_class_2.jpeg`}
+        image={`/kids-bjj-class2.jpeg`}
         policy={kidsPolicy}
       />
-      <CTASection image={`/kids_bjj_class_2.jpeg`} />
+      <CTASection image={`/kids-bjj-class2.jpeg`} />
     </>
   );
 }

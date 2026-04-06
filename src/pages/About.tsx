@@ -34,7 +34,7 @@ export default function About() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.2 }}
-            src={`/mohler_pic.jpeg`} 
+            src={`/mohlerpic2.jpeg`} 
             alt="Professor Mohler" 
             className="w-full h-full object-cover brightness-75"
            
@@ -136,7 +136,7 @@ export default function About() {
               <div className="sticky top-32">
                 <div className="relative aspect-[4/5] overflow-hidden group mb-12 shadow-2xl">
                   <img 
-                    src={`/linage_for_professor_mohler.jpeg`} 
+                    src={`/linage-for-professor-mohler.jpeg`} 
                     alt="The Gracie Lineage" 
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
                    
@@ -169,7 +169,7 @@ export default function About() {
         </div>
       </section>
 
-      <CTASection image={`/mohler_pic.jpeg`} />
+      <CTASection image={`/mohlerpic2.jpeg`} />
     </div>
   );
 }

@@ -65,7 +65,7 @@ export default function PrivateLessons() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/img_1490_1_2.jpeg`} 
+            src={`/adult-private-lesson.jpeg`} 
             alt="Private Martial Arts Lesson" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -139,7 +139,7 @@ export default function PrivateLessons() {
         </div>
       </section>
 
-      <CTASection image={`/img_1490_1_2.jpeg`} />
+      <CTASection image={`/adult-private-lesson.jpeg`} />
     </div>
   );
 }
