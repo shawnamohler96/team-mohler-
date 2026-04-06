@@ -186,7 +186,7 @@ export default function FAQ() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.2 }}
-            src={`${import.meta.env.BASE_URL}mohler_877.jpeg`} 
+            src={`/mohler_877.jpeg`} 
             alt="Professor Mohler Teaching" 
             className="w-full h-full object-cover brightness-50"
             referrerPolicy="no-referrer"
@@ -230,7 +230,7 @@ export default function FAQ() {
         </div>
       </section>
 
-      <CTASection image={`${import.meta.env.BASE_URL}gym_tour_pic_4.jpeg`} />
+      <CTASection image={`/gym_tour_pic_4.jpeg`} />
     </div>
   );
 }

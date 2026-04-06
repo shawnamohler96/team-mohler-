@@ -113,7 +113,7 @@ export default function ThankYou() {
         </motion.div>
       </div>
 
-      <CTASection image={`${import.meta.env.BASE_URL}2_BJJ_students_grappling_comp_2.jpeg`} />
+      <CTASection image={`/2_bjj_students_grappling_comp_2.jpeg`} />
     </div>
   );
 }

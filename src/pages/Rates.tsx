@@ -301,7 +301,7 @@ export default function Rates() {
       </div>
       </section>
 
-      <CTASection image={`${import.meta.env.BASE_URL}IMG_1490_1_2.jpeg`} />
+      <CTASection image={`/img_1490_1_2.jpeg`} />
     </div>
   );
 }

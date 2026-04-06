@@ -12,7 +12,7 @@ interface CTASectionProps {
 }
 
 export default function CTASection({
-  image = `${import.meta.env.BASE_URL}IMG_1490_1_2.jpeg`,
+  image = `/img_1490_1_2.jpeg`,
   title = "Stop Thinking.",
   titleAccent = "Start Training.",
   description = "Your first 2 classes are on us. No ego, no pressure—just world-class martial arts. Fill out the form below to claim your free trial.",

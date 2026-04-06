@@ -84,7 +84,7 @@ export default function MMA() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`${import.meta.env.BASE_URL}MMA_PICture_copy.jpeg`} 
+            src={`/mma_picture_copy.jpeg`} 
             alt="Adult MMA" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -231,7 +231,7 @@ export default function MMA() {
       />
 
       <CTASection 
-        image={`${import.meta.env.BASE_URL}MMA_PICture_copy.jpeg`} 
+        image={`/mma_picture_copy.jpeg`} 
         title="Start Your Training"
         description="This is where everything comes together."
         buttonText="👉 Book Your Free Trial Today"
