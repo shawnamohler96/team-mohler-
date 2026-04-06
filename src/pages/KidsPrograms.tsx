@@ -48,7 +48,7 @@ export default function KidsPrograms() {
       title: "Little Lions Jiu-Jitsu",
       age: "Ages 4–6",
       path: "/little-lions",
-      img: `/little-lions-bjj2.jpeg`,
+      img: "/little-lions-bjj2.jpeg",
       desc: "Build coordination, listening skills, and confidence in a fun, structured environment.",
       icon: <Star size={32} />
     },
@@ -56,7 +56,7 @@ export default function KidsPrograms() {
       title: "Kids Brazilian Jiu-Jitsu",
       age: "Ages 7–12",
       path: "/kids-jiu-jitsu",
-      img: `/kids-bjj-class2.jpeg`,
+      img: "/kids-bjj-class2.jpeg",
       desc: "Develop real self-defense skills, confidence, and anti-bullying awareness.",
       icon: <Shield size={32} />
     },
@@ -64,7 +64,7 @@ export default function KidsPrograms() {
       title: "Teen Brazilian Jiu-Jitsu",
       age: "Ages 13+",
       path: "/teen-jiu-jitsu",
-      img: `/teen-jiu-jitsu.jpeg`,
+      img: "/teen-jiu-jitsu.jpeg",
       desc: "Build strength, discipline, and leadership through structured training.",
       icon: <Trophy size={32} />
     },
@@ -72,7 +72,7 @@ export default function KidsPrograms() {
       title: "Teen Boxing & Kickboxing",
       age: "Ages 13+",
       path: "/teen-boxing",
-      img: `/teen-boxing-class.jpeg`,
+      img: "/teen-boxing-class.jpeg",
       desc: "Improve fitness, confidence, and striking skills in a focused, high-energy class.",
       icon: <Users size={32} />
     }
@@ -118,7 +118,7 @@ export default function KidsPrograms() {
           <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/little-lions-bjj2.jpeg`} 
+            src="/little-lions-bjj2.jpeg" 
             alt="Kids Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -237,7 +237,7 @@ export default function KidsPrograms() {
             </div>
             <div className="relative">
               <div className="aspect-square border-2 border-accent-red p-3">
-                <img referrerPolicy="no-referrer" src={`/kids-bjj-class2.jpeg`} 
+                <img referrerPolicy="no-referrer" src="/kids-bjj-class2.jpeg" 
                   alt="Team Mohler Kids" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                  
@@ -306,7 +306,7 @@ export default function KidsPrograms() {
       />
 
       <CTASection 
-        image={`/little-lions-bjj2.jpeg`} 
+        image="/little-lions-bjj2.jpeg" 
         title="Ready to Get Your Child Started?"
         titleAccent=""
         description="Give your child the confidence, discipline, and skills that last a lifetime."

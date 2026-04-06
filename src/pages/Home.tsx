@@ -74,7 +74,7 @@ export default function Home() {
         <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5 }}
-          src={`/2-guys-grappling-closeup2.jpeg`} 
+          src="/2-guys-grappling-closeup2.jpeg" 
           alt="Mohler MMA Elite Training" 
           className="absolute inset-0 w-full h-full object-cover brightness-50"
          
@@ -236,7 +236,7 @@ export default function Home() {
           <div 
             className="w-full md:w-2/5 relative min-h-[500px] md:min-h-[600px] overflow-hidden"
           >
-            <img referrerPolicy="no-referrer" src={`/main-pic-main-pic-mohler.jpeg`} 
+            <img referrerPolicy="no-referrer" src="/main-pic-main-pic-mohler.jpeg" 
               alt="Professor Mohler" 
               className="w-full h-full object-cover"
              
@@ -281,7 +281,7 @@ export default function Home() {
                 headline: "BUILD ROCK-SOLID CONFIDENCE.",
                 desc: "Our kids’ Jiu-Jitsu classes teach more than just self-defense. We focus on discipline, focus, and respect in a fun, high-energy environment.",
                 path: "/kids-programs",
-                img: `/kids-bjj-class2.jpeg`
+                img: "/kids-bjj-class2.jpeg"
               },
               {
                 id: "02",
@@ -289,7 +289,7 @@ export default function Home() {
                 headline: "BUILD CONFIDENCE & DIRECTION.",
                 desc: "Our teen martial arts classes give students a strong, positive outlet while building confidence, discipline, and respect through real training.",
                 path: "/kids-programs",
-                img: `/teen-classes-copy.jpeg`
+                img: "/teen-classes-copy.jpeg"
               },
               {
                 id: "03",
@@ -297,7 +297,7 @@ export default function Home() {
                 headline: "MASTER THE ART.",
                 desc: "Learn the world’s most effective martial arts system in a beginner-friendly, structured training environment. Perfect for fitness, self-defense, or high-level competition.",
                 path: "/adult-programs",
-                img: `/2-guys-boxing-scaled-100x100copy.jpeg`
+                img: "/2-guys-boxing-scaled-100x100copy.jpeg"
               }
             ].map((program, idx) => (
               <Link 
@@ -374,28 +374,28 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img referrerPolicy="no-referrer" src={`/gym-tour-pic622.jpeg`} 
+              <img referrerPolicy="no-referrer" src="/gym-tour-pic622.jpeg" 
                 alt="Mohler MMA Heavy Bags" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img referrerPolicy="no-referrer" src={`/gym-tour-pic7.jpeg`} 
+              <img referrerPolicy="no-referrer" src="/gym-tour-pic7.jpeg" 
                 alt="Mohler MMA Elite Training Floor" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img referrerPolicy="no-referrer" src={`/gym-tour-pic3.jpeg`} 
+              <img referrerPolicy="no-referrer" src="/gym-tour-pic3.jpeg" 
                 alt="Mohler MMA Professional Mats" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img referrerPolicy="no-referrer" src={`/gym-tour-pic4.jpeg`} 
+              <img referrerPolicy="no-referrer" src="/gym-tour-pic4.jpeg" 
                 alt="Mohler MMA Training Environment" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                

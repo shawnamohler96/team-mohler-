@@ -13,7 +13,7 @@ const programs = [
     icon: <Shield size={32} />,
     desc: "Perfect for those looking to build real-world self-defense and functional fitness. No experience? No problem—our beginner classes are designed for you.",
     path: "/bjj",
-    img: `/2-bjj-students-grappling-comp2.jpeg`
+    img: "/2-bjj-students-grappling-comp2.jpeg"
   },
   {
     id: "02",
@@ -21,7 +21,7 @@ const programs = [
     icon: <Target size={32} />,
     desc: "Master the \"Sweet Science\" while getting in the best shape of your life. Ideal for stress relief, hand-eye coordination, and elite conditioning.",
     path: "/boxing",
-    img: `/lady-boxing-877.jpeg`
+    img: "/lady-boxing-877.jpeg"
   },
   {
     id: "03",
@@ -29,7 +29,7 @@ const programs = [
     icon: <Zap size={32} />,
     desc: "Learn the \"Art of Eight Limbs.\" A high-energy, full-body workout that builds incredible striking power, cardio, and coordination.",
     path: "/muay-thai-boxing",
-    img: `/kickboxing-image.jpeg`
+    img: "/kickboxing-image.jpeg"
   },
   {
     id: "04",
@@ -37,7 +37,7 @@ const programs = [
     icon: <Trophy size={32} />,
     desc: "The most well-rounded self-defense system. This class blends striking and grappling into one complete, high-performance system.",
     path: "/mma",
-    img: `/mma-picture-copy.jpeg`
+    img: "/mma-picture-copy.jpeg"
   },
   {
     id: "05",
@@ -45,7 +45,7 @@ const programs = [
     icon: <Users size={32} />,
     desc: "Build incredible core strength, balance, and takedown confidence. The ultimate addition to your Jiu-Jitsu and grappling game.",
     path: "/wrestling",
-    img: `/wrestling-class.jpeg`,
+    img: "/wrestling-class.jpeg",
     scale: "scale-125"
   }
 ];
@@ -91,7 +91,7 @@ export default function AdultPrograms() {
           <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/2-bjj-students-grappling-comp2.jpeg`} 
+            src="/2-bjj-students-grappling-comp2.jpeg" 
             alt="Adult Martial Arts Training" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -256,7 +256,7 @@ export default function AdultPrograms() {
         variant="dark"
       />
 
-      <CTASection image={`/2-guys-grappling-closeup2.jpeg`} />
+      <CTASection image="/2-guys-grappling-closeup2.jpeg" />
     </div>
   );
 }

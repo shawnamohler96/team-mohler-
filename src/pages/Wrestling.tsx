@@ -70,7 +70,7 @@ export default function Wrestling() {
           <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.3, opacity: 0 }}
             animate={{ scale: 1.2, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/wrestling-class.jpeg`} 
+            src="/wrestling-class.jpeg" 
             alt="Adult Wrestling" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -153,7 +153,7 @@ export default function Wrestling() {
         variant="dark"
       />
 
-      <CTASection image={`/wrestling-class.jpeg`} />
+      <CTASection image="/wrestling-class.jpeg" />
     </div>
   );
 }

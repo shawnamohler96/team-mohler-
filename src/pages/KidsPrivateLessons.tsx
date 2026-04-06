@@ -64,7 +64,7 @@ export default function KidsPrivateLessons() {
           <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/kids-private-lesson.jpeg`} 
+            src="/kids-private-lesson.jpeg" 
             alt="Kids Private Martial Arts Lesson" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -138,7 +138,7 @@ export default function KidsPrivateLessons() {
         </div>
       </section>
 
-      <CTASection image={`/kids-private-lesson.jpeg`} />
+      <CTASection image="/kids-private-lesson.jpeg" />
     </div>
   );
 }

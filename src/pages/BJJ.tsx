@@ -69,7 +69,7 @@ export default function BJJ() {
           <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/2-bjj-students-grappling-comp2.jpeg`} 
+            src="/2-bjj-students-grappling-comp2.jpeg" 
             alt="Brazilian Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -152,7 +152,7 @@ export default function BJJ() {
         variant="dark"
       />
 
-      <CTASection image={`/2-bjj-students-grappling-comp2.jpeg`} />
+      <CTASection image="/2-bjj-students-grappling-comp2.jpeg" />
     </div>
   );
 }

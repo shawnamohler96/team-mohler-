@@ -4,12 +4,12 @@ import { Instagram, Facebook } from 'lucide-react';
 
 export default function SocialSection() {
   const fallbackImages = [
-    { src: `/gym-tour-pic622.jpeg`, alt: 'Training 1' },
-    { src: `/gym-tour-pic7.jpeg`, alt: 'Training 2' },
-    { src: `/gym-tour-pic3.jpeg`, alt: 'Training 3' },
-    { src: `/gym-tour-pic4.jpeg`, alt: 'Training 4' },
-    { src: `/mohler-teaching-jiu-jitsu-2.jpeg`, alt: 'Training 5' },
-    { src: `/2-guys-grappling-closeup2.jpeg`, alt: 'Training 6' },
+    { src: "/gym-tour-pic622.jpeg", alt: 'Training 1' },
+    { src: "/gym-tour-pic7.jpeg", alt: 'Training 2' },
+    { src: "/gym-tour-pic3.jpeg", alt: 'Training 3' },
+    { src: "/gym-tour-pic4.jpeg", alt: 'Training 4' },
+    { src: "/mohler-teaching-jiu-jitsu-2.jpeg", alt: 'Training 5' },
+    { src: "/2-guys-grappling-closeup2.jpeg", alt: 'Training 6' },
   ];
 
   const [instagramImages, setInstagramImages] = useState(fallbackImages);
@@ -90,7 +90,7 @@ export default function SocialSection() {
           <div className="p-4 flex items-center justify-between border-b border-gray-100">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-accent-red p-0.5">
-                <img referrerPolicy="no-referrer" src={`/mohler-logo-white-copy.jpeg`} 
+                <img referrerPolicy="no-referrer" src="/mohler-logo-white-copy.jpeg" 
                   alt="Mohler MMA Logo" 
                   className="w-full h-full object-contain bg-black rounded-full"
                  

@@ -301,7 +301,7 @@ export default function Rates() {
       </div>
       </section>
 
-      <CTASection image={`/adult-private-lesson.jpeg`} />
+      <CTASection image="/adult-private-lesson.jpeg" />
     </div>
   );
 }

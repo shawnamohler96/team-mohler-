@@ -72,7 +72,7 @@ export default function KidsJiuJitsu() {
           <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src={`/kids-bjj-class2.jpeg`} 
+            src="/kids-bjj-class2.jpeg" 
             alt="Kids Brazilian Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
            
@@ -151,7 +151,7 @@ export default function KidsJiuJitsu() {
         policy={kidsPolicy} 
       />
 
-      <CTASection image={`/kids-bjj-class2.jpeg`} />
+      <CTASection image="/kids-bjj-class2.jpeg" />
     </div>
   );
 }
