@@ -49,7 +49,7 @@ export default function ImageGallery() {
               className="bg-gray-50 border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="aspect-video overflow-hidden bg-gray-200">
-                <img referrerPolicy="no-referrer" src={img}
+                <img referrerPolicy="no-referrer" src={`/${img}`} 
                   alt={img} 
                   className="w-full h-full object-cover"
                  
