@@ -88,8 +88,7 @@ export default function AdultPrograms() {
 
         {/* Image Side */}
         <div className="w-full lg:w-1/2 relative min-h-[50vh] lg:min-h-full">
-          <motion.img 
-            initial={{ scale: 1.1, opacity: 0 }}
+          <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
             src={`/2-bjj-students-grappling-comp2.jpeg`} 
@@ -130,8 +129,7 @@ export default function AdultPrograms() {
                 </div>
 
                 <div className="relative h-64 overflow-hidden">
-                  <img 
-                    src={prog.img} 
+                  <img referrerPolicy="no-referrer" src={prog.img} 
                     alt={prog.title} 
                     className={`w-full h-full object-cover ${prog.scale || ''} group-hover:scale-110 transition-all duration-1000 ease-out`}
                    

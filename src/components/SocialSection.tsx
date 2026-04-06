@@ -90,8 +90,7 @@ export default function SocialSection() {
           <div className="p-4 flex items-center justify-between border-b border-gray-100">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-accent-red p-0.5">
-                <img 
-                  src={`/mohler-logo-white-copy.jpeg`} 
+                <img referrerPolicy="no-referrer" src={`/mohler-logo-white-copy.jpeg`} 
                   alt="Mohler MMA Logo" 
                   className="w-full h-full object-contain bg-black rounded-full"
                  
@@ -120,8 +119,7 @@ export default function SocialSection() {
           <div className="grid grid-cols-3 gap-0.5 bg-gray-100">
             {instagramImages.map((img, idx) => (
               <div key={idx} className="aspect-square overflow-hidden relative group">
-                <img 
-                  src={img.src} 
+                <img referrerPolicy="no-referrer" src={img.src} 
                   alt={img.alt} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                  

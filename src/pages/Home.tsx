@@ -71,8 +71,7 @@ export default function Home() {
       />
       {/* Hero Section - Immersive Full-Bleed */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-secondary-bg">
-        <motion.img 
-          initial={{ scale: 1.1, opacity: 0 }}
+        <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5 }}
           src={`/2-guys-grappling-closeup2.jpeg`} 
@@ -237,8 +236,7 @@ export default function Home() {
           <div 
             className="w-full md:w-2/5 relative min-h-[500px] md:min-h-[600px] overflow-hidden"
           >
-            <img 
-              src={`/main-pic-main-pic-mohler.jpeg`} 
+            <img referrerPolicy="no-referrer" src={`/main-pic-main-pic-mohler.jpeg`} 
               alt="Professor Mohler" 
               className="w-full h-full object-cover"
              
@@ -314,8 +312,7 @@ export default function Home() {
                 <div className="absolute top-0 right-0 -mr-8 -mt-8 w-40 h-40 bg-burnished-gold/10 rounded-full blur-3xl group-hover:bg-white/20 transition-all duration-700"></div>
 
                 <div className="relative h-48 lg:h-56 overflow-hidden z-10">
-                  <img 
-                    src={program.img} 
+                  <img referrerPolicy="no-referrer" src={program.img} 
                     alt={program.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000 ease-out brightness-90 group-hover:brightness-100"
                    
@@ -377,32 +374,28 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img 
-                src={`/gym-tour-pic622.jpeg`} 
+              <img referrerPolicy="no-referrer" src={`/gym-tour-pic622.jpeg`} 
                 alt="Mohler MMA Heavy Bags" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img 
-                src={`/gym-tour-pic7.jpeg`} 
+              <img referrerPolicy="no-referrer" src={`/gym-tour-pic7.jpeg`} 
                 alt="Mohler MMA Elite Training Floor" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img 
-                src={`/gym-tour-pic3.jpeg`} 
+              <img referrerPolicy="no-referrer" src={`/gym-tour-pic3.jpeg`} 
                 alt="Mohler MMA Professional Mats" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
-              <img 
-                src={`/gym-tour-pic4.jpeg`} 
+              <img referrerPolicy="no-referrer" src={`/gym-tour-pic4.jpeg`} 
                 alt="Mohler MMA Training Environment" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                

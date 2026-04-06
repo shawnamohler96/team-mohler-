@@ -30,8 +30,7 @@ export default function About() {
         </div>
         
         <div className="relative h-[60vh] lg:h-auto overflow-hidden bg-secondary-bg z-0">
-          <motion.img 
-            initial={{ scale: 1.1, opacity: 0 }}
+          <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.2 }}
             src={`/mohlerpic2.jpeg`} 
@@ -135,8 +134,7 @@ export default function About() {
             <div className="lg:col-span-5">
               <div className="sticky top-32">
                 <div className="relative aspect-[4/5] overflow-hidden group mb-12 shadow-2xl">
-                  <img 
-                    src={`/linage-for-professor-mohler.jpeg`} 
+                  <img referrerPolicy="no-referrer" src={`/linage-for-professor-mohler.jpeg`} 
                     alt="The Gracie Lineage" 
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
                    

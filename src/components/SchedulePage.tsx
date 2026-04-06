@@ -82,8 +82,7 @@ export default function SchedulePage({
             {/* Right Side: Image */}
             <div className="relative h-[40vh] lg:h-auto overflow-hidden bg-secondary-bg">
               {image && (
-                <motion.img 
-                  initial={{ scale: 1.1, opacity: 0 }}
+                <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 1.5 }}
                   src={image} 

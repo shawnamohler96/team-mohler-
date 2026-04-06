@@ -147,8 +147,7 @@ export default function GitHubIntegration() {
         {userData && (
           <div className="p-8">
             <div className="flex items-start gap-6 mb-12">
-              <img
-                src={userData.avatar_url}
+              <img referrerPolicy="no-referrer" src={userData.avatar_url}
                 alt={userData.login}
                 className="w-24 h-24 rounded-full border-4 border-gray-50"
                />

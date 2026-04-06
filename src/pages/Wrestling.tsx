@@ -67,8 +67,7 @@ export default function Wrestling() {
 
         {/* Image Side */}
         <div className="w-full lg:w-1/2 relative min-h-[50vh] lg:min-h-full">
-          <motion.img 
-            initial={{ scale: 1.3, opacity: 0 }}
+          <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.3, opacity: 0 }}
             animate={{ scale: 1.2, opacity: 1 }}
             transition={{ duration: 1.5 }}
             src={`/wrestling-class.jpeg`} 

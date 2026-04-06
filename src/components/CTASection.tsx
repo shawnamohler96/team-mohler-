@@ -24,8 +24,7 @@ export default function CTASection({
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch min-h-[450px]">
         {/* Image Side - Full Visibility */}
         <div className="w-full md:w-1/2 relative min-h-[300px] md:min-h-full bg-gray-200">
-          <img 
-            src={image} 
+          <img referrerPolicy="no-referrer" src={image} 
             alt="Training at Mohler MMA"
             className="absolute inset-0 w-full h-full object-cover"
            

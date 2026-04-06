@@ -115,8 +115,7 @@ export default function KidsPrograms() {
 
         {/* Image Side */}
         <div className="w-full lg:w-1/2 relative min-h-[50vh] lg:min-h-full">
-          <motion.img 
-            initial={{ scale: 1.1, opacity: 0 }}
+          <motion.img referrerPolicy="no-referrer" initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
             src={`/little-lions-bjj2.jpeg`} 
@@ -158,8 +157,7 @@ export default function KidsPrograms() {
                 <div className="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-burnished-gold/10 rounded-full blur-3xl group-hover:bg-white/20 transition-all duration-700"></div>
 
                 <div className="relative h-40 md:h-48 overflow-hidden">
-                  <img 
-                    src={prog.img} 
+                  <img referrerPolicy="no-referrer" src={prog.img} 
                     alt={prog.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000 ease-out brightness-90 group-hover:brightness-100"
                    
@@ -239,8 +237,7 @@ export default function KidsPrograms() {
             </div>
             <div className="relative">
               <div className="aspect-square border-2 border-accent-red p-3">
-                <img 
-                  src={`/kids-bjj-class2.jpeg`} 
+                <img referrerPolicy="no-referrer" src={`/kids-bjj-class2.jpeg`} 
                   alt="Team Mohler Kids" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                  
