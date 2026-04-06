@@ -8,7 +8,7 @@ export default function SocialSection() {
     { src: '/gym tour pic 7.jpeg', alt: 'Training 2' },
     { src: '/gym tour pic 3.jpeg', alt: 'Training 3' },
     { src: '/gym tour pic 4.jpeg', alt: 'Training 4' },
-    { src: '/mohelr teaching jiu-jitsu .jpeg', alt: 'Training 5' },
+    { src: '/mohelr teaching jiu-jitsu.jpeg', alt: 'Training 5' },
     { src: '/2 guys grappling close up 2.jpeg', alt: 'Training 6' },
   ];
 

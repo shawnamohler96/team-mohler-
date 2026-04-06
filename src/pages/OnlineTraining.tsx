@@ -182,7 +182,7 @@ export default function OnlineTraining() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="order-2 lg:order-1">
               <img 
-                src="/mohelr teaching jiu-jitsu .jpeg" 
+                src="/mohelr teaching jiu-jitsu.jpeg" 
                 alt="Professor Mohler Teaching Jiu-Jitsu" 
                 className="w-full h-[600px] object-cover luxury-border grayscale"
                 referrerPolicy="no-referrer"

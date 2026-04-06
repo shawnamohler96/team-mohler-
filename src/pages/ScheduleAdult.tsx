@@ -102,7 +102,7 @@ export default function ScheduleAdult() {
         titleAccent="Schedule" 
         subtitle="Training Times" 
         schedule={adultSchedule} 
-        image="/mohelr teaching jiu-jitsu .jpeg"
+        image="/mohelr teaching jiu-jitsu.jpeg"
         policy={adultPolicy}
         variant="dark"
       />
