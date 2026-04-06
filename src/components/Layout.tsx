@@ -86,7 +86,7 @@ export function Navbar() {
             src={`/mohler_logo_white_copy.jpeg`} 
             alt="Mohler MMA Logo" 
             className="h-12 w-auto object-contain"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="flex flex-col">
             <span className="text-xl font-display uppercase leading-none text-ink">Team Mohler</span>
@@ -513,7 +513,7 @@ export function Footer() {
               src={`/mohler_logo_white_copy.jpeg`} 
               alt="Team Mohler MMA Logo" 
               className="h-16 w-auto mb-6 grayscale brightness-200"
-              referrerPolicy="no-referrer"
+             
             />
             <p className="text-gray-200 leading-relaxed mb-6">
               Texas' Longest-Standing and Most Notable Jiu-Jitsu Gym. Experience 30+ years of world-class lineage.
@@ -553,7 +553,7 @@ export function Footer() {
                 style={{ border: 0 }} 
                 allowFullScreen={true} 
                 loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade"
+               
               ></iframe>
             </div>
           </div>

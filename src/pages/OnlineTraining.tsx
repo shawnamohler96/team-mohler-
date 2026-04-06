@@ -18,7 +18,7 @@ export default function OnlineTraining() {
             src={`/2_guys_grappling_close_up_2.jpeg`} 
             alt="Jiu-Jitsu Grappling Close-up" 
             className="w-full h-full object-cover brightness-[0.5]"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-transparent"></div>
         </div>
@@ -130,7 +130,7 @@ export default function OnlineTraining() {
                   src={`/main-pic-main-pic-mohler.jpeg`} 
                   alt="Blueprint System" 
                   className="w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
+                 
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-20 h-20 rounded-full bg-accent-red flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
@@ -185,7 +185,7 @@ export default function OnlineTraining() {
                 src={`/mohelr_teaching_jiu-jitsu.jpeg`} 
                 alt="Professor Mohler Teaching Jiu-Jitsu" 
                 className="w-full h-[600px] object-cover luxury-border grayscale"
-                referrerPolicy="no-referrer"
+               
               />
             </div>
             <motion.div

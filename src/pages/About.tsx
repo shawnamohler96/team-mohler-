@@ -37,7 +37,7 @@ export default function About() {
             src={`/mohler_pic.jpeg`} 
             alt="Professor Mohler" 
             className="w-full h-full object-cover brightness-75"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute top-12 right-12">
             <span className="vertical-text text-micro text-white/40">BLACK BELT 5TH DEGREE</span>
@@ -139,7 +139,7 @@ export default function About() {
                     src={`/linage_for_professor_mohler.jpeg`} 
                     alt="The Gracie Lineage" 
                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
-                    referrerPolicy="no-referrer"
+                   
                   />
                   <div className="absolute inset-0 bg-burnished-gold/10 mix-blend-overlay"></div>
                   

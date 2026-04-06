@@ -151,7 +151,7 @@ export default function GitHubIntegration() {
                 src={userData.avatar_url}
                 alt={userData.login}
                 className="w-24 h-24 rounded-full border-4 border-gray-50"
-               referrerPolicy="no-referrer" />
+               />
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">{userData.name || userData.login}</h2>
                 <a

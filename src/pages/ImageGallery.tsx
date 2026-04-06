@@ -50,7 +50,7 @@ export default function ImageGallery() {
                   src={`/${img}`} 
                   alt={img} 
                   className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
+                 
                 />
               </div>
               <div className="p-4 bg-white">

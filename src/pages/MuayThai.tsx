@@ -74,7 +74,7 @@ export default function MuayThai() {
             alt="Muay Thai Kickboxing" 
             className="absolute inset-0 w-full h-full object-cover"
             style={{ objectPosition: 'center 25%' }}
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent lg:hidden block"></div>

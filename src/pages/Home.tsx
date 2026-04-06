@@ -78,7 +78,7 @@ export default function Home() {
           src={`/2_guys_grappling_close_up_2.jpeg`} 
           alt="Mohler MMA Elite Training" 
           className="absolute inset-0 w-full h-full object-cover brightness-50"
-          referrerPolicy="no-referrer"
+         
         />
         
         <div className="relative z-10 text-center px-8 max-w-4xl">
@@ -241,7 +241,7 @@ export default function Home() {
               src={`/main-pic-main-pic-mohler.jpeg`} 
               alt="Professor Mohler" 
               className="w-full h-full object-cover"
-              referrerPolicy="no-referrer"
+             
             />
             <div className="absolute inset-0 bg-gradient-to-r from-secondary-bg via-transparent to-transparent md:block hidden"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-secondary-bg via-transparent to-transparent md:hidden block"></div>
@@ -318,7 +318,7 @@ export default function Home() {
                     src={program.img} 
                     alt={program.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000 ease-out brightness-90 group-hover:brightness-100"
-                    referrerPolicy="no-referrer"
+                   
                   />
                   {/* Subtle Overlay */}
                   <div className="absolute inset-0 bg-ink/20 group-hover:bg-ink/10 transition-colors duration-700"></div>
@@ -381,7 +381,7 @@ export default function Home() {
                 src={`/gym_tour_pic_6_2_2.jpeg`} 
                 alt="Mohler MMA Heavy Bags" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
-                referrerPolicy="no-referrer"
+               
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
@@ -389,7 +389,7 @@ export default function Home() {
                 src={`/gym_tour_pic_7.jpeg`} 
                 alt="Mohler MMA Elite Training Floor" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
-                referrerPolicy="no-referrer"
+               
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
@@ -397,7 +397,7 @@ export default function Home() {
                 src={`/gym_tour_pic_3.jpeg`} 
                 alt="Mohler MMA Professional Mats" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
-                referrerPolicy="no-referrer"
+               
               />
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
@@ -405,7 +405,7 @@ export default function Home() {
                 src={`/gym_tour_pic_4.jpeg`} 
                 alt="Mohler MMA Training Environment" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
-                referrerPolicy="no-referrer"
+               
               />
             </div>
           </div>

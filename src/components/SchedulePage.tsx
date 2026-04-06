@@ -89,7 +89,7 @@ export default function SchedulePage({
                   src={image} 
                   alt={title} 
                   className="absolute inset-0 w-full h-full object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-1000"
-                  referrerPolicy="no-referrer"
+                 
                 />
               )}
               <div className={`absolute inset-0 via-transparent to-transparent lg:block hidden ${isDark ? 'bg-gradient-to-r from-secondary-bg' : 'bg-gradient-to-r from-primary-bg'}`}></div>

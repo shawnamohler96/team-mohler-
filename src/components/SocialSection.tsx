@@ -94,7 +94,7 @@ export default function SocialSection() {
                   src={`/mohler_logo_white_copy.jpeg`} 
                   alt="Mohler MMA Logo" 
                   className="w-full h-full object-contain bg-black rounded-full"
-                  referrerPolicy="no-referrer"
+                 
                 />
               </div>
               <div>
@@ -124,7 +124,7 @@ export default function SocialSection() {
                   src={img.src} 
                   alt={img.alt} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
+                 
                 />
                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <Instagram className="text-white opacity-70" size={20} />

@@ -28,7 +28,7 @@ export default function CTASection({
             src={image} 
             alt="Training at Mohler MMA"
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
         </div>
 

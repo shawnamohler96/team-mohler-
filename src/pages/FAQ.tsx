@@ -189,7 +189,7 @@ export default function FAQ() {
             src={`/mohler_877.jpeg`} 
             alt="Professor Mohler Teaching" 
             className="w-full h-full object-cover brightness-50"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary-bg/20 to-transparent"></div>
         </div>

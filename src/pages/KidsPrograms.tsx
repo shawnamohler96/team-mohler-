@@ -122,7 +122,7 @@ export default function KidsPrograms() {
             src={`/little_lions_bjj_2.jpeg`} 
             alt="Kids Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent lg:hidden block"></div>
@@ -162,7 +162,7 @@ export default function KidsPrograms() {
                     src={prog.img} 
                     alt={prog.title} 
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000 ease-out brightness-90 group-hover:brightness-100"
-                    referrerPolicy="no-referrer"
+                   
                   />
                   {/* Subtle Overlay */}
                   <div className="absolute inset-0 bg-ink/20 group-hover:bg-ink/10 transition-colors duration-700"></div>
@@ -243,7 +243,7 @@ export default function KidsPrograms() {
                   src={`/kids_bjj_class_2.jpeg`} 
                   alt="Team Mohler Kids" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                  referrerPolicy="no-referrer"
+                 
                 />
               </div>
               <div className="absolute -top-8 -right-8 w-32 h-32 bg-accent-red flex items-center justify-center text-center p-4 rotate-12 shadow-2xl">

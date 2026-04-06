@@ -67,7 +67,7 @@ export default function Contact() {
           src={`/2_guys_grappling_close_up_2.jpeg`} 
           alt="Background" 
           className="w-full h-full object-cover grayscale"
-          referrerPolicy="no-referrer"
+         
         />
       </div>
 

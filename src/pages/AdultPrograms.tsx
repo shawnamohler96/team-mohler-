@@ -95,7 +95,7 @@ export default function AdultPrograms() {
             src={`/gym_tour_pic_1.jpeg`} 
             alt="Adult Martial Arts Training" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent lg:hidden block"></div>
@@ -134,7 +134,7 @@ export default function AdultPrograms() {
                     src={prog.img} 
                     alt={prog.title} 
                     className={`w-full h-full object-cover ${prog.scale || ''} group-hover:scale-110 transition-all duration-1000 ease-out`}
-                    referrerPolicy="no-referrer"
+                   
                   />
                   {/* Subtle Overlay */}
                   <div className="absolute inset-0 bg-ink/10 group-hover:bg-transparent transition-colors duration-700"></div>

@@ -73,7 +73,7 @@ export default function Boxing() {
             src={`/lady_boxing.jpeg`} 
             alt="Adult Boxing" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent lg:hidden block"></div>

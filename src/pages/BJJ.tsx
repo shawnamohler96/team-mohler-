@@ -73,7 +73,7 @@ export default function BJJ() {
             src={`/2_bjj_students_grappling_comp_2.jpeg`} 
             alt="Brazilian Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent lg:hidden block"></div>

@@ -76,7 +76,7 @@ export default function LittleLions() {
             src={`/little_lions_bjj_2.jpeg`} 
             alt="Little Lions Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           {/* Subtle gradient for smooth transition on desktop */}
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>

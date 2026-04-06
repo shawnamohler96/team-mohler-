@@ -76,7 +76,7 @@ export default function KidsJiuJitsu() {
             src={`/kids_bjj_class_2.jpeg`} 
             alt="Kids Brazilian Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           {/* Subtle gradient for smooth transition on desktop */}
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>

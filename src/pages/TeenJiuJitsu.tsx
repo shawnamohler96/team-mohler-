@@ -77,7 +77,7 @@ export default function TeenJiuJitsu() {
             src={`/010grapevine2019_2.jpeg`} 
             alt="Teen Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+           
           />
           {/* Subtle gradient for smooth transition on desktop */}
           <div className="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent hidden lg:block"></div>
