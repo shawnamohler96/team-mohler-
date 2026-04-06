@@ -75,7 +75,7 @@ export default function Home() {
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5 }}
-          src="/2_guys_grappling_close_up_2.jpeg" 
+          src={`${import.meta.env.BASE_URL}2_guys_grappling_close_up_2.jpeg`} 
           alt="Mohler MMA Elite Training" 
           className="absolute inset-0 w-full h-full object-cover brightness-50"
           referrerPolicy="no-referrer"
@@ -238,7 +238,7 @@ export default function Home() {
             className="w-full md:w-2/5 relative min-h-[500px] md:min-h-[600px] overflow-hidden"
           >
             <img 
-              src="/main-pic-main-pic-mohler.jpeg" 
+              src={`${import.meta.env.BASE_URL}main-pic-main-pic-mohler.jpeg`} 
               alt="Professor Mohler" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -283,7 +283,7 @@ export default function Home() {
                 headline: "BUILD ROCK-SOLID CONFIDENCE.",
                 desc: "Our kids’ Jiu-Jitsu classes teach more than just self-defense. We focus on discipline, focus, and respect in a fun, high-energy environment.",
                 path: "/kids-programs",
-                img: "/KIDS_BJJ_CLASS_2.jpeg"
+                img: `${import.meta.env.BASE_URL}KIDS_BJJ_CLASS_2.jpeg`
               },
               {
                 id: "02",
@@ -291,7 +291,7 @@ export default function Home() {
                 headline: "BUILD CONFIDENCE & DIRECTION.",
                 desc: "Our teen martial arts classes give students a strong, positive outlet while building confidence, discipline, and respect through real training.",
                 path: "/kids-programs",
-                img: "/teenclasses_copy.jpeg"
+                img: `${import.meta.env.BASE_URL}teenclasses_copy.jpeg`
               },
               {
                 id: "03",
@@ -299,7 +299,7 @@ export default function Home() {
                 headline: "MASTER THE ART.",
                 desc: "Learn the world’s most effective martial arts system in a beginner-friendly, structured training environment. Perfect for fitness, self-defense, or high-level competition.",
                 path: "/adult-programs",
-                img: "/2_guys_boxingscaled-100x100_copy.jpeg"
+                img: `${import.meta.env.BASE_URL}2_guys_boxingscaled-100x100_copy.jpeg`
               }
             ].map((program, idx) => (
               <Link 
@@ -378,7 +378,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
               <img 
-                src="/gym_tour_pic_6_2_2.jpeg" 
+                src={`${import.meta.env.BASE_URL}gym_tour_pic_6_2_2.jpeg`} 
                 alt="Mohler MMA Heavy Bags" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                 referrerPolicy="no-referrer"
@@ -386,7 +386,7 @@ export default function Home() {
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
               <img 
-                src="/gym_tour_pic_7.jpeg" 
+                src={`${import.meta.env.BASE_URL}gym_tour_pic_7.jpeg`} 
                 alt="Mohler MMA Elite Training Floor" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                 referrerPolicy="no-referrer"
@@ -394,7 +394,7 @@ export default function Home() {
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
               <img 
-                src="/gym_tour_pic_3.jpeg" 
+                src={`${import.meta.env.BASE_URL}gym_tour_pic_3.jpeg`} 
                 alt="Mohler MMA Professional Mats" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                 referrerPolicy="no-referrer"
@@ -402,7 +402,7 @@ export default function Home() {
             </div>
             <div className="aspect-[16/9] overflow-hidden border border-accent-red/10 group">
               <img 
-                src="/gym_tour_pic_4.jpeg" 
+                src={`${import.meta.env.BASE_URL}gym_tour_pic_4.jpeg`} 
                 alt="Mohler MMA Training Environment" 
                 className="w-full h-full object-cover group-hover:scale-105 group-hover:border-accent-red/50 transition-all duration-1000"
                 referrerPolicy="no-referrer"

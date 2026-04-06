@@ -73,7 +73,7 @@ export default function KidsJiuJitsu() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/KIDS_BJJ_CLASS_2.jpeg" 
+            src={`${import.meta.env.BASE_URL}KIDS_BJJ_CLASS_2.jpeg`} 
             alt="Kids Brazilian Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -152,7 +152,7 @@ export default function KidsJiuJitsu() {
         policy={kidsPolicy} 
       />
 
-      <CTASection image="/KIDS_BJJ_CLASS_2.jpeg" />
+      <CTASection image={`${import.meta.env.BASE_URL}KIDS_BJJ_CLASS_2.jpeg`} />
     </div>
   );
 }

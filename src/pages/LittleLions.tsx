@@ -73,7 +73,7 @@ export default function LittleLions() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/Little_Lions_BJJ_2.jpeg" 
+            src={`${import.meta.env.BASE_URL}Little_Lions_BJJ_2.jpeg`} 
             alt="Little Lions Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -152,7 +152,7 @@ export default function LittleLions() {
         policy={kidsPolicy} 
       />
 
-      <CTASection image="/Little_Lions_BJJ_2.jpeg" />
+      <CTASection image={`${import.meta.env.BASE_URL}Little_Lions_BJJ_2.jpeg`} />
     </div>
   );
 }

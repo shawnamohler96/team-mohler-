@@ -83,7 +83,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-full">
         <Link to="/" className="flex items-center space-x-4 group h-full">
           <img 
-            src="/mohler_logo_white_copy.jpeg" 
+            src={`${import.meta.env.BASE_URL}mohler_logo_white_copy.jpeg`} 
             alt="Mohler MMA Logo" 
             className="h-12 w-auto object-contain"
             referrerPolicy="no-referrer"
@@ -510,7 +510,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
             <img 
-              src="/mohler_logo_white_copy.jpeg" 
+              src={`${import.meta.env.BASE_URL}mohler_logo_white_copy.jpeg`} 
               alt="Team Mohler MMA Logo" 
               className="h-16 w-auto mb-6 grayscale brightness-200"
               referrerPolicy="no-referrer"

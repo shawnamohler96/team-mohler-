@@ -15,7 +15,7 @@ export default function OnlineTraining() {
       <section className="relative min-h-[80vh] flex items-center overflow-hidden border-b border-ink/10">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/2_guys_grappling_close_up_2.jpeg" 
+            src={`${import.meta.env.BASE_URL}2_guys_grappling_close_up_2.jpeg`} 
             alt="Jiu-Jitsu Grappling Close-up" 
             className="w-full h-full object-cover brightness-[0.5]"
             referrerPolicy="no-referrer"
@@ -127,7 +127,7 @@ export default function OnlineTraining() {
             <div className="relative">
               <div className="aspect-video bg-ink luxury-border overflow-hidden group cursor-pointer">
                 <img 
-                  src="/main-pic-main-pic-mohler.jpeg" 
+                  src={`${import.meta.env.BASE_URL}main-pic-main-pic-mohler.jpeg`} 
                   alt="Blueprint System" 
                   className="w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700"
                   referrerPolicy="no-referrer"
@@ -182,7 +182,7 @@ export default function OnlineTraining() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="order-2 lg:order-1">
               <img 
-                src="/mohelr_teaching_jiu-jitsu.jpeg" 
+                src={`${import.meta.env.BASE_URL}mohelr_teaching_jiu-jitsu.jpeg`} 
                 alt="Professor Mohler Teaching Jiu-Jitsu" 
                 className="w-full h-[600px] object-cover luxury-border grayscale"
                 referrerPolicy="no-referrer"
@@ -292,7 +292,7 @@ export default function OnlineTraining() {
         </div>
       </section>
 
-      <CTASection image="/2_guys_grappling_close_up_2.jpeg" />
+      <CTASection image={`${import.meta.env.BASE_URL}2_guys_grappling_close_up_2.jpeg`} />
     </div>
   );
 }

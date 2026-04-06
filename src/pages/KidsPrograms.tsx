@@ -48,7 +48,7 @@ export default function KidsPrograms() {
       title: "Little Lions Jiu-Jitsu",
       age: "Ages 4–6",
       path: "/little-lions",
-      img: "/Little_Lions_BJJ_2.jpeg",
+      img: `${import.meta.env.BASE_URL}Little_Lions_BJJ_2.jpeg`,
       desc: "Build coordination, listening skills, and confidence in a fun, structured environment.",
       icon: <Star size={32} />
     },
@@ -56,7 +56,7 @@ export default function KidsPrograms() {
       title: "Kids Brazilian Jiu-Jitsu",
       age: "Ages 7–12",
       path: "/kids-jiu-jitsu",
-      img: "/KIDS_BJJ_CLASS_2.jpeg",
+      img: `${import.meta.env.BASE_URL}KIDS_BJJ_CLASS_2.jpeg`,
       desc: "Develop real self-defense skills, confidence, and anti-bullying awareness.",
       icon: <Shield size={32} />
     },
@@ -64,7 +64,7 @@ export default function KidsPrograms() {
       title: "Teen Brazilian Jiu-Jitsu",
       age: "Ages 13+",
       path: "/teen-jiu-jitsu",
-      img: "/010Grapevine2019_2.jpeg",
+      img: `${import.meta.env.BASE_URL}010Grapevine2019_2.jpeg`,
       desc: "Build strength, discipline, and leadership through structured training.",
       icon: <Trophy size={32} />
     },
@@ -72,7 +72,7 @@ export default function KidsPrograms() {
       title: "Teen Boxing & Kickboxing",
       age: "Ages 13+",
       path: "/teen-boxing",
-      img: "/teenclasses_copy.jpeg",
+      img: `${import.meta.env.BASE_URL}teenclasses_copy.jpeg`,
       desc: "Improve fitness, confidence, and striking skills in a focused, high-energy class.",
       icon: <Users size={32} />
     }
@@ -119,7 +119,7 @@ export default function KidsPrograms() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/Little_Lions_BJJ_2.jpeg" 
+            src={`${import.meta.env.BASE_URL}Little_Lions_BJJ_2.jpeg`} 
             alt="Kids Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -240,7 +240,7 @@ export default function KidsPrograms() {
             <div className="relative">
               <div className="aspect-square border-2 border-accent-red p-3">
                 <img 
-                  src="/KIDS_BJJ_CLASS_2.jpeg" 
+                  src={`${import.meta.env.BASE_URL}KIDS_BJJ_CLASS_2.jpeg`} 
                   alt="Team Mohler Kids" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -309,7 +309,7 @@ export default function KidsPrograms() {
       />
 
       <CTASection 
-        image="/Little_Lions_BJJ_2.jpeg" 
+        image={`${import.meta.env.BASE_URL}Little_Lions_BJJ_2.jpeg`} 
         title="Ready to Get Your Child Started?"
         titleAccent=""
         description="Give your child the confidence, discipline, and skills that last a lifetime."

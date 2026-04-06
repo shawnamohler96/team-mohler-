@@ -91,7 +91,7 @@ export default function SocialSection() {
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-accent-red p-0.5">
                 <img 
-                  src="/mohler_logo_white_copy.jpeg" 
+                  src={`${import.meta.env.BASE_URL}mohler_logo_white_copy.jpeg`} 
                   alt="Mohler MMA Logo" 
                   className="w-full h-full object-contain bg-black rounded-full"
                   referrerPolicy="no-referrer"
