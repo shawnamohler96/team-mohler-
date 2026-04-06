@@ -13,7 +13,7 @@ const programs = [
     icon: <Shield size={32} />,
     desc: "Perfect for those looking to build real-world self-defense and functional fitness. No experience? No problem—our beginner classes are designed for you.",
     path: "/bjj",
-    img: "/adultprivatelessons.png"
+    img: "/IMG_1490 (1) 2.jpeg"
   },
   {
     id: "02",
@@ -21,7 +21,7 @@ const programs = [
     icon: <Target size={32} />,
     desc: "Master the \"Sweet Science\" while getting in the best shape of your life. Ideal for stress relief, hand-eye coordination, and elite conditioning.",
     path: "/boxing",
-    img: "/adultboxing.jpeg"
+    img: "/lady boxing.jpeg"
   },
   {
     id: "03",
@@ -29,7 +29,7 @@ const programs = [
     icon: <Zap size={32} />,
     desc: "Learn the \"Art of Eight Limbs.\" A high-energy, full-body workout that builds incredible striking power, cardio, and coordination.",
     path: "/muay-thai-boxing",
-    img: "/adultkickboxing-small.jpeg"
+    img: "/Kickboxing Image.jpeg"
   },
   {
     id: "04",
@@ -37,7 +37,7 @@ const programs = [
     icon: <Trophy size={32} />,
     desc: "The most well-rounded self-defense system. This class blends striking and grappling into one complete, high-performance system.",
     path: "/mma",
-    img: "/wrestling.jpeg"
+    img: "/Wrestling class.jpeg"
   },
   {
     id: "05",
@@ -45,7 +45,7 @@ const programs = [
     icon: <Users size={32} />,
     desc: "Build incredible core strength, balance, and takedown confidence. The ultimate addition to your Jiu-Jitsu and grappling game.",
     path: "/wrestling",
-    img: "/grappling-closeup.jpeg",
+    img: "/2 guys grappling close up 2.jpeg",
     scale: "scale-125"
   }
 ];
@@ -92,7 +92,7 @@ export default function AdultPrograms() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/gymtourpic-new.png" 
+            src="/gym tour pic 1.jpeg" 
             alt="Adult Martial Arts Training" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -258,7 +258,7 @@ export default function AdultPrograms() {
         variant="dark"
       />
 
-      <CTASection image="/grappling-closeup.jpeg" />
+      <CTASection image="/2 guys grappling close up 2.jpeg" />
     </div>
   );
 }

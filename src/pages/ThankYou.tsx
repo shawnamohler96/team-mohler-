@@ -113,7 +113,7 @@ export default function ThankYou() {
         </motion.div>
       </div>
 
-      <CTASection image="/adult-bjj.jpg" />
+      <CTASection image="/2 BJJ students grappling comp 2.jpeg" />
     </div>
   );
 }

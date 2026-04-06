@@ -70,7 +70,7 @@ export default function BJJ() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/adult-bjj.jpg" 
+            src="/2 BJJ students grappling comp 2.jpeg" 
             alt="Brazilian Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -153,7 +153,7 @@ export default function BJJ() {
         variant="dark"
       />
 
-      <CTASection image="/adult-bjj.jpg" />
+      <CTASection image="/2 BJJ students grappling comp 2.jpeg" />
     </div>
   );
 }

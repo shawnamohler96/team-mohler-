@@ -15,7 +15,7 @@ export default function OnlineTraining() {
       <section className="relative min-h-[80vh] flex items-center overflow-hidden border-b border-ink/10">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/grappling-closeup.jpeg" 
+            src="/2 guys grappling close up 2.jpeg" 
             alt="Jiu-Jitsu Grappling Close-up" 
             className="w-full h-full object-cover brightness-[0.5]"
             referrerPolicy="no-referrer"
@@ -182,7 +182,7 @@ export default function OnlineTraining() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="order-2 lg:order-1">
               <img 
-                src="/mohlerteaching-bjj.jpeg" 
+                src="/mohelr teaching jiu-jitsu .jpeg" 
                 alt="Professor Mohler Teaching Jiu-Jitsu" 
                 className="w-full h-[600px] object-cover luxury-border grayscale"
                 referrerPolicy="no-referrer"
@@ -292,7 +292,7 @@ export default function OnlineTraining() {
         </div>
       </section>
 
-      <CTASection image="/grappling-closeup.jpeg" />
+      <CTASection image="/2 guys grappling close up 2.jpeg" />
     </div>
   );
 }

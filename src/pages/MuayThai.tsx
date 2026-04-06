@@ -70,7 +70,7 @@ export default function MuayThai() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/adultkickboxing-small.jpeg" 
+            src="/Kickboxing Image.jpeg" 
             alt="Muay Thai Kickboxing" 
             className="absolute inset-0 w-full h-full object-cover"
             style={{ objectPosition: 'center 25%' }}
@@ -154,7 +154,7 @@ export default function MuayThai() {
         variant="dark"
       />
 
-      <CTASection image="/adultkickboxing-small.jpeg" />
+      <CTASection image="/Kickboxing Image.jpeg" />
     </div>
   );
 }

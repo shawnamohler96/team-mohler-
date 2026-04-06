@@ -102,11 +102,11 @@ export default function ScheduleAdult() {
         titleAccent="Schedule" 
         subtitle="Training Times" 
         schedule={adultSchedule} 
-        image="/mohlerteaching-bjj.jpeg"
+        image="/mohelr teaching jiu-jitsu .jpeg"
         policy={adultPolicy}
         variant="dark"
       />
-      <CTASection image="/private-lesson.png" />
+      <CTASection image="/IMG_1490 (1) 2.jpeg" />
     </>
   );
 }

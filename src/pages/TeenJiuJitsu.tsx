@@ -74,7 +74,7 @@ export default function TeenJiuJitsu() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/teen-bjj-2019.jpg" 
+            src="/010Grapevine2019 2.jpeg" 
             alt="Teen Jiu-Jitsu" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -180,7 +180,7 @@ export default function TeenJiuJitsu() {
       />
 
       <CTASection 
-        image="/teen-bjj-2019.jpg" 
+        image="/010Grapevine2019 2.jpeg" 
         title="Start with 2 Free Classes"
         description="No pressure. No experience needed. Just show up and get started."
         buttonText="👉 Book Your Free Trial Today"

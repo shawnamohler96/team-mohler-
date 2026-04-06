@@ -86,7 +86,7 @@ export default function TeenBoxing() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1.5 }}
-            src="/teen-boxing.jpeg" 
+            src="/Teenage boxers at Team Mohler gym.jpeg" 
             alt="Teen Boxing" 
             className="absolute inset-0 w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -204,7 +204,7 @@ export default function TeenBoxing() {
         policy={kidsPolicy} 
       />
       <CTASection 
-        image="/teen-boxing.jpeg" 
+        image="/Teenage boxers at Team Mohler gym.jpeg" 
         title="Start with 2 Free Classes"
         description="No pressure. No experience needed. Just show up and get started."
         buttonText="👉 Book Your Free Trial Today"

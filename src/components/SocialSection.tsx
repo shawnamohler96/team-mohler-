@@ -4,12 +4,12 @@ import { Instagram, Facebook } from 'lucide-react';
 
 export default function SocialSection() {
   const fallbackImages = [
-    { src: '/gym-tour-pic-6.jpeg', alt: 'Training 1' },
-    { src: '/gym-tour-pic-7.jpeg', alt: 'Training 2' },
-    { src: '/gym-tour-pic-3.jpg', alt: 'Training 3' },
-    { src: '/gym-tour-pic-4.jpg', alt: 'Training 4' },
-    { src: '/mohlerteaching-bjj.jpeg', alt: 'Training 5' },
-    { src: '/grappling-closeup.jpeg', alt: 'Training 6' },
+    { src: '/gym tour pic 6 2 2.jpeg', alt: 'Training 1' },
+    { src: '/gym tour pic 7.jpeg', alt: 'Training 2' },
+    { src: '/gym tour pic 3.jpeg', alt: 'Training 3' },
+    { src: '/gym tour pic 4.jpeg', alt: 'Training 4' },
+    { src: '/mohelr teaching jiu-jitsu .jpeg', alt: 'Training 5' },
+    { src: '/2 guys grappling close up 2.jpeg', alt: 'Training 6' },
   ];
 
   const [instagramImages, setInstagramImages] = useState(fallbackImages);
@@ -91,7 +91,7 @@ export default function SocialSection() {
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-accent-red p-0.5">
                 <img 
-                  src="/logo-navbar.jpeg" 
+                  src="/mohler logo white copy.jpeg" 
                   alt="Mohler MMA Logo" 
                   className="w-full h-full object-contain bg-black rounded-full"
                   referrerPolicy="no-referrer"
