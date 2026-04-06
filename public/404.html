@@ -4,23 +4,29 @@
     <meta charset="utf-8">
     <title>Martial Arts in Grapevine, TX | Team Mohler BJJ, Boxing</title>
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment,
-      // e.g. http://www.foo.tld/one/two?a=b#anchor -> http://www.foo.tld/?/one/two&a=b#anchor
-      var pathSegmentsToKeep = 1;
-
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      // Redirect to hash router
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      
+      // Get the repository name from the path if it exists
+      var pathSegments = path.split('/').filter(Boolean);
+      var repoName = pathSegments.length > 0 ? '/' + pathSegments[0] : '';
+      var remainingPath = pathSegments.length > 1 ? '/' + pathSegments.slice(1).join('/') : '/';
+      
+      // If the first segment looks like a repo name (not a known route), keep it as the base
+      // Known routes: about, adult-programs, kids-programs, schedule, contact, etc.
+      var knownRoutes = ['about', 'adult-programs', 'kids-programs', 'schedule', 'contact', 'bjj', 'boxing', 'muay-thai', 'wrestling', 'mma'];
+      
+      if (pathSegments.length > 0 && knownRoutes.includes(pathSegments[0])) {
+        // It's a root deployment
+        window.location.replace('/#' + path + search + hash);
+      } else if (pathSegments.length > 0) {
+        // It's a subpath deployment (repo name)
+        window.location.replace(repoName + '/#' + remainingPath + search + hash);
+      } else {
+        window.location.replace('/#' + path + search + hash);
+      }
     </script>
   </head>
   <body>

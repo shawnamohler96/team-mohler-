@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, useLayoutEffect } from 'react';
 import { Navbar, Footer } from './components/Layout';
 import Home from './pages/Home';
@@ -44,7 +44,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Navbar />
